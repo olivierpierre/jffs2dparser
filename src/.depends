@@ -1,0 +1,6 @@
+ChunkModel.o: ChunkModel.cpp ChunkModel.hpp FlashAddr.hpp
+File.o: File.cpp File.hpp ChunkModel.hpp FlashAddr.hpp
+FlashAddr.o: FlashAddr.cpp FlashAddr.hpp
+Jffs2DParser.o: Jffs2DParser.cpp Parser.hpp ChunkModel.hpp FlashAddr.hpp \
+ File.hpp
+Parser.o: Parser.cpp Parser.hpp ChunkModel.hpp FlashAddr.hpp

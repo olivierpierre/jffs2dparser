@@ -1,0 +1,40 @@
+Usage:
+------
+Try an example, in the test directory:
+
+$ ./Jffs2DParser jffs2dump3 -f
+/************************************/
+ JFFS2 dump parser configuration :
+ - Parsing jffs2dump3
+ - Filemap mode
+ - Flash page size : 2048
+ - Pages per block : 64
+ - Partition offset : 7864320
+/************************************/
+Processing file 1/3: 
+Processing file 2/3: 
+Processing file 3/3: 
+1009961311
+FileSet with 3 files :
+  F: "slash"
+  F: "test2.dat" [DELETED], size: 0 ino:3, size:0, pino:1
+    Data nodes versions : 54
+    Valid data node versions : 0
+    Concerned flash pages indexes (0) : 
+    Fragmentation factor : -nan
+    Contiguous factor : -0
+
+  F: "test.dat", size: 25600 ino:2, size:25600, pino:1
+    Data nodes versions : 51
+    Valid data node versions : 8
+    Concerned flash pages indexes (21) : 
+    Fragmentation factor : 1.4
+    Contiguous factor : 0.35
+Seq. read cost : 
+  readpage[0] = 3
+  readpage[1] = 3
+  readpage[2] = 3
+  readpage[3] = 3
+  readpage[4] = 3
+  readpage[5] = 3
+  readpage[6] = 3

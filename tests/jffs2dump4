@@ -1,0 +1,5 @@
+Empty space found from 0x00000000 to 0x03220000
+         Inode      node at 0x03220000, totlen 0x000004ac, #ino      3, version    54, isize   204800, csize     1128, dsize     1128, offset     2968
+         Dirent     node at 0x032204ac, totlen 0x00000031, #pino     1, version     5, #ino         0, nsize        9, name test2.dat
+         Inode      node at 0x032204e0, totlen 0x00001044, #ino      2, version     9, isize     4096, csize     4096, dsize     4096, offset        0
+         Dirent     node at 0x03221524, totlen 0x00000030, #pino     1, version     6, #ino         0, nsize        8, name test.dat

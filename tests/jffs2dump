@@ -1,0 +1,10 @@
+Empty space found from 0x00000000 to 0x03260000
+         Inode      node at 0x03260000, totlen 0x00000044, #ino      2, version     1, isize        0, csize        0, dsize        0, offset        0
+         Dirent     node at 0x03260044, totlen 0x00000030, #pino     1, version     1, #ino         2, nsize        8, name test.dat
+         Inode      node at 0x03260800, totlen 0x00001044, #ino      2, version     2, isize     4096, csize     4096, dsize     4096, offset        0
+         Inode      node at 0x03262000, totlen 0x00001044, #ino      2, version     3, isize     4096, csize     4096, dsize     4096, offset        0
+         Inode      node at 0x03263800, totlen 0x00001044, #ino      2, version     4, isize     4096, csize     4096, dsize     4096, offset        0
+         Inode      node at 0x03265000, totlen 0x00001044, #ino      2, version     5, isize     4096, csize     4096, dsize     4096, offset        0
+         Inode      node at 0x03266800, totlen 0x00001044, #ino      2, version     6, isize     4096, csize     4096, dsize     4096, offset        0
+         Inode      node at 0x03268000, totlen 0x00001044, #ino      2, version     7, isize     4096, csize     4096, dsize     4096, offset        0
+         Inode      node at 0x03269044, totlen 0x00000045, #ino      2, version     8, isize     4097, csize        1, dsize        1, offset     4096
